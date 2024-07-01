@@ -1,0 +1,15 @@
+'CREATE A NEW REPOSITORY ON THE COMMAND LINE'
+
+echo "# rtk-basics" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/deepanshu1narang/rtk-basics.git
+git push -u origin master
+
+'PUSH AN EXISTING REPOSITORY FROM THE COMMAND LINE'
+
+git remote add origin https://github.com/deepanshu1narang/rtk-basics.git
+git branch -M master
+git push -u origin master
